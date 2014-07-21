@@ -1,0 +1,18 @@
+{
+  "name": "Transmogrifier",
+  "version": "0.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/Picturelife/transmogrifier.git"
+  },
+  "description": "PNG to ANSI colors",
+  "bin": {
+    "transmogrify": "transmogrify"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "png-js": "*"
+  }
+}
