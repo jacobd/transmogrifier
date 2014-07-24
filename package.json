@@ -13,6 +13,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "png-js": "*"
+    "png-js": "*",
+    "minimist": "*"
   }
 }
