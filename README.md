@@ -8,6 +8,16 @@ Install this globally and you'll have access to the `transmogrify` command anywh
 ```shell
 npm install -g transmogrifier
 ```
+
+```shell
+Usage: transmogrify <filename> [-f] [-h]
+
+Help: transmogrify draws a png to your console.
+Options:
+	-f --fit	Fit the image to the console size.
+	-h --help	Renders this message.
+```
+
 ```shell
 transmogrify imgs/wow.png
 ```
